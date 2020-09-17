@@ -1,0 +1,95 @@
+/*styles the text and background for the header and footer elements*/
+header, footer {
+  background-color: #CE84AD;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size:20px;
+  padding-top: 5px;
+}
+
+/*applies the same font and text allingment to multiple elements*/
+header, footer, h1, h2, h3 {
+  font-family:sans-serif;
+  text-align:center;
+}
+
+/* sets background color and height for the navigation bar directly under the header*/
+.nav-bar {
+  height:40px;
+  background-color:#D2E0BF;
+}
+
+/*alligns navigation items to the left of the navigation bar, adds padding, makes changes to the font*/
+.nav-bar a {
+  float: left;
+  color: #000000;
+  padding: 10px;
+  font-size: 17px;
+}
+
+/*changes color of items when hovering over them using pseudo class*/
+
+.nav-bar a:link {
+  color: #000000;
+}
+
+.nav-bar a:visited {
+  color:#00AFB9;
+}
+
+.nav-bar a:hover {
+  color: #ffffff;
+}
+
+p a:link {
+  color:#CE84AD;
+}
+p a:visited {
+  color:#00AFB9;
+}
+
+p a:hover {
+  color: #D2E0BF;
+}
+
+li a:link {
+  color:#CE84AD;
+}
+
+li a:visited {
+  color:#00AFB9;
+}
+
+li a:hover {
+  color: #D2E0BF;
+}
+
+/*makes the image a circle*/
+.image-circle {
+    border-radius: 50%; 
+}
+
+/*centers and lowers the image away from the header*/
+.image-container {
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+}
+
+/*sets the width of the text for the sections*/
+.wrapper {
+  width: 500px;
+  margin: auto;
+}
+
+/*styles text for all paragraph and list elements*/
+p, li {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+/*adds spacing between the section elements in the web page*/
+section {
+  padding:14px;
+}
+
